@@ -86,9 +86,9 @@
         <div class="container">
           <div class="row">
             <section class="6u 12u(narrower)">
-              <div class="box post"> <a href="#" class="image left"><img src="images/pic01.png"
+              <div class="box post"> <class="image left"><img src="images/pic01.png"
 
-                    alt=""></a>
+                    alt="">
                 <div class="inner">
                   <h3>Te ayudamos con Informática</h3>
                   <p>En este sitio siempre vas a encontrar cosas para conocer
@@ -98,9 +98,9 @@
               </div>
             </section>
             <section class="6u 19u(narrower)">
-              <div class="box post"> <a href="#" class="image left"><img src="images/pic02.png"
+              <div class="box post"> <class="image left"><img src="images/pic02.png"
 
-                    alt=""></a>
+                    alt="">
                 <div class="inner">
                   <h3>Tutoriales en video</h3>
                   <p>Si te es más facil aprender con un video, vas a encontrar
@@ -111,9 +111,9 @@
           </div>
           <div class="row">
             <section class="6u 12u(narrower)">
-              <div class="box post"> <a href="#" class="image left"><img src="images/pic03.png"
+              <div class="box post"> <class="image left"><img src="images/pic03.png"
 
-                    alt=""></a>
+                    alt="">
                 <div class="inner">
                   <h3>Necesitas ayuda?</h3>
                   <p>Escribi tus dudas o aportá tu conocimiento en nuestro <a href="#"><b>foro</b></a></p>
@@ -121,9 +121,9 @@
               </div>
             </section>
             <section class="6u 12u(narrower)">
-              <div class="box post"> <a href="#" class="image left"><img src="images/pic04.png"
+              <div class="box post"> <class="image left"><img src="images/pic04.png"
 
-                    alt=""></a>
+                    alt="">
                 <div class="inner">
                   <h3>Nuestro fin</h3>
                   <p>Lo que queremos hacer es que la vida del usuario con las
@@ -139,27 +139,33 @@
         <div class="container">
           <div class="row">
             <section class="3u 6u(narrower) 12u$(mobilep)">
-              <h3>Links to Stuff</h3>
+              <h3>Enlaces rápidos</h3>
               <ul class="links">
-                <li><a href="#">Mattis et quis rutrum</a></li>
-                <li><a href="#">Suspendisse amet varius</a></li>
-                <li><a href="#">Sed et dapibus quis</a></li>
-                <li><a href="#">Rutrum accumsan dolor</a></li>
-                <li><a href="#">Mattis rutrum accumsan</a></li>
-                <li><a href="#">Suspendisse varius nibh</a></li>
-                <li><a href="#">Sed et dapibus mattis</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="comenzar/index.html">Comenzar</a></li>
+                <li><a href="#">Foro</a></li>
+                <li><a href="tutoriales/index.html">Tutoriales de PC</a></li>
+                <li><a href="android/index.html">Aplicaciones para el celular</a></li>
+                <li><a href="videos/index.html">Videos de guia</a></li>
               </ul>
             </section>
-            <section class="3u 6u$(narrower) 12u$(mobilep)">
-              <h3>More Links to Stuff</h3>
+            <section>
+              <h3> </h3>
               <ul class="links">
-                <li><a href="#">Duis neque nisi dapibus</a></li>
-                <li><a href="#">Sed et dapibus quis</a></li>
-                <li><a href="#">Rutrum accumsan sed</a></li>
-                <li><a href="#">Mattis et sed accumsan</a></li>
-                <li><a href="#">Duis neque nisi sed</a></li>
-                <li><a href="#">Sed et dapibus quis</a></li>
-                <li><a href="#">Rutrum amet varius</a></li>
+                <li> <br>
+                </li>
+                <li> <br>
+                </li>
+                <li> <br>
+                </li>
+                <li> <br>
+                </li>
+                <li> <br>
+                </li>
+                <li> <br>
+                </li>
+                <li> <br>
+                </li>
               </ul>
             </section>
             <section class="6u 12u(narrower)">
