@@ -12,12 +12,10 @@
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
   </head>
   <body>
-    <div id="page-wrapper">
-      <!-- Header -->
+    <div id="page-wrapper"> <!-- Header -->
       <div id="header">
         <!-- Logo -->
-        <h1><a href="index.html" id="logo">Notiblock:<em>Instruyendote
-              facilmente.</em></a></h1>
+        <h1><a href="index.html" id="logo">Notiblock <em>Enseñandote de la forma mas facil</em></a></h1>
         <!-- Nav -->
         <nav id="nav">
           <ul>
@@ -39,15 +37,16 @@
                 <li><a href="#">Veroeros feugiat</a></li>
               </ul>
             </li>
-            <li><a href="/blog/index.html">Blog</a></li>
-            <li><a href="#">Foro</a></li>
+            <li><a href="left-sidebar.html">Blog</a></li>
+            <li><a href="/foro/index.php">Foro</a></li>
           </ul>
         </nav>
       </div>
       <!-- Banner -->
       <section id="banner">
         <header>
-          <h2>Bienvenidos a Notiblock: <em>Iluminamos tu camino al conocimiento</em></h2>
+          <h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5
+                UP</a></em></h2>
           <a href="#" class="button">Learn More</a> </header>
       </section>
       <!-- Highlights -->
@@ -239,6 +238,5 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
-    
   </body>
 </html>
