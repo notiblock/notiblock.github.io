@@ -86,9 +86,9 @@
         <div class="container">
           <div class="row">
             <section class="6u 12u(narrower)">
-              <div class="box post"> <class="image left"><img src="images/pic01.png"
+              <div class="box post"> <a href="#" class="image left"><img src="images/pic01.png"
 
-                    alt="">
+                    alt=""></a>
                 <div class="inner">
                   <h3>Te ayudamos con Informática</h3>
                   <p>En este sitio siempre vas a encontrar cosas para conocer
@@ -98,9 +98,9 @@
               </div>
             </section>
             <section class="6u 19u(narrower)">
-              <div class="box post"> <class="image left"><img src="images/pic02.png"
+              <div class="box post"> <a href="#" class="image left"><img src="images/pic02.png"
 
-                    alt="">
+                    alt=""></a>
                 <div class="inner">
                   <h3>Tutoriales en video</h3>
                   <p>Si te es más facil aprender con un video, vas a encontrar
@@ -111,9 +111,9 @@
           </div>
           <div class="row">
             <section class="6u 12u(narrower)">
-              <div class="box post"> <class="image left"><img src="images/pic03.png"
+              <div class="box post"> <a href="#" class="image left"><img src="images/pic03.png"
 
-                    alt="">
+                    alt=""></a>
                 <div class="inner">
                   <h3>Necesitas ayuda?</h3>
                   <p>Escribi tus dudas o aportá tu conocimiento en nuestro <a href="#"><b>foro</b></a></p>
@@ -121,9 +121,9 @@
               </div>
             </section>
             <section class="6u 12u(narrower)">
-              <div class="box post"> <class="image left"><img src="images/pic04.png"
+              <div class="box post"> <a href="#" class="image left"><img src="images/pic04.png"
 
-                    alt="">
+                    alt=""></a>
                 <div class="inner">
                   <h3>Nuestro fin</h3>
                   <p>Lo que queremos hacer es que la vida del usuario con las
