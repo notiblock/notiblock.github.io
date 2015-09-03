@@ -14,9 +14,6 @@
 				containers: 1400,
 				grid: { gutters: ['2em', 0] }
 			},
-			global: {
-				href: 'https://fonts.googleapis.com/css?family=Fjalla+One|Titillium+Web'}
-			},
 			xlarge: {
 				media: '(max-width: 1680px)',
 				href: 'css/style-xlarge.css',

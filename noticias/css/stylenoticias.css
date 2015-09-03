@@ -1233,7 +1233,7 @@ div.container {
 }
 
 section.wrapper {
-    background: url("http://tileablepatterns.com/wp-content/uploads/2014/09/Denim.jpg");
+    background: url("../images/bg.png");
 }
 
 #header {
@@ -1246,4 +1246,32 @@ section.wrapper {
 }
 #header nav > ul > li a:active, #header nav > ul > li .button a:hover {
     color: #000;
+}
+header p {
+    color: #2B2727;
+	padding: 0.5em 1em 0.5em 1em;
+	line-height:2em;
+}
+
+#main > div > div.blur > p > em{
+	color:#525252;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	line-height:2em;
+}
+
+#main > div > div > p > em > a{
+	color:#808080;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	line-height:2em;
+}
+
+/* que villero que soy*/
+#main > div > div.workaround {
+	text-size:0.8em;
+	padding: 0.5em 2.5em 0.5em 2.5em;
+}
+#main > div > div.workaround > p {
+	background:bebebe;
+	line-height:2em;
+	font-style:italic;
 }
