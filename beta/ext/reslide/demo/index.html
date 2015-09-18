@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js ie7 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 lt-ie9"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Full Width Image Slider Demo</title>
+	<meta name="description" content="">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="demo.css?=2">
+	<link rel="stylesheet" href="../slider.min.css?=3">
+</head>
+<body>
+    
+	<div class="wrapper">
+		<h1>jQuery Full Width Slider</h1>
+		<h2>Lightweight, responsive, full width image Slider</h2>
+		<div class="full-width">
+			<div class="inner">
+				<div class="slide">
+					<div><strong>Embarazo no deseado:</strong> Aunque existe mucha información sobre educación sexual y métodos anticonceptivos, la inmaduréz en relaciones sexuales a temprana edad lleva a consecuencias irreparables como los embarazos no deseados.</div>
+					<img src="../../../image/emba.jpg" width="1020" height="400">
+				</div>
+				<div class="slide">
+					<div><strong>Depresion y transtornos emocionales:</strong> La depresión es otro de los problemas que afectan a los adolescentes, pueden ser causados por conflictos familiares, acoso estudiantil (bullying), problemas de aprendizaje, desilusiones amorosas, influencia de amistades inadecuadas, etc.</div>
+					<img src="../../../image/depre.jpg" width="1020" height="400">
+				</div>
+				<div class="slide">
+					<div><strong>Relaciones Sexuales Tempranas:</strong> Para algunos adolescentes el explorar el mundo de la sexualidad temprana no es un problema sino un placer; sin embargo para muchos de ellos es un dolor de cabeza.</div>
+					<img src="../../../image/sexo.gif" width="1020" height="400">
+				</div>
+				<div class="slide">
+					<div><strong>Iniciación en las Drogas:</strong> Las drogas siguen siendo un metodo de participación grupal, muchas veces se usan como escape a situaciones familiares y/o personales que los adolescentes no saben manejar.</div>
+					<img src="../../../image/dogas.jpg" width="1020" height="400">
+				</div>
+			</div>
+			<div class="controls">
+				<a href="#" class="left">&larr;</a>
+				<a href="#" class="right">&rarr;</a>
+			</div>
+			<div class="slide-nav"></div>
+		</div>
+		<p class="credit">Created By <a href="https://github.com/JoeBonham">Joe Bonham</a></p>.
+	</div>
+	
+	<script src="../../../js/jquery.js"></script>
+	<script src="../slider.js"></script>
+	<script>
+        // Just to fix IE issues when console isn't defined, only used for the demo - not required for the slider
+        window.console = window.console || {
+            log: function () {}
+        };
+        $('.full-width').fullWidth()
+            .on('fws.start', function(e, data){
+                console.log( 'Moving '+ data.direction +' from slide '+ data.status.previous +' to slide '+ data.status.current );
+            })
+            .on('fws.finish', function(e, data){
+                console.log( 'Moved from slide ' + data.status.previous + ' to slide ' + data.status.current );
+            });
+	</script>
+</body>
+</html>

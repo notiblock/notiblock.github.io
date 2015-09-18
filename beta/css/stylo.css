@@ -1,17 +1,172 @@
-header {
-	background-image:url();
+/* añadiendo fuentesss*/
+@import url(https://fonts.googleapis.com/css?family=Raleway|Indie+Flower|Dosis|Lobster|Yanone+Kaffeesatz|Muli|Asap);
+
+
+
+
+.elfondo {
+	background-image:url(../image/main.jpg);
+	background-position:center;
 }
-header .container {
+header .jumbotron {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&amp;1+0,0.51+68,0.51+68,0.49+85,1+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(173,173,173,0.51) 68%, rgba(217,217,217,0.49) 85%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(68%,rgba(173,173,173,0.51)), color-stop(85%,rgba(217,217,217,0.49)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(173,173,173,0.51) 68%,rgba(217,217,217,0.49) 85%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(173,173,173,0.51) 68%,rgba(217,217,217,0.49) 85%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(173,173,173,0.51) 68%,rgba(217,217,217,0.49) 85%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(173,173,173,0.51) 68%,rgba(217,217,217,0.49) 85%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 	text-align:center;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0+0,0.65+100 */
-background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-height:500px;
-margin:0px;
-padding:0px;
+
+height:35em;
+}
+
+body > div > div {
+	float:center;
+	text-align:center;
+}
+
+
+h2 {
+	text-align:center;
+	font-family:'Asap', sans-serif;
+	font-size:4em;
+}
+body > div.presentacion > div > div > div > div > img.img-responsive {
+	max-width: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.presenta2 {}
+body > header > div > div > div > span {
+		font-family: 'Dosis', sans-serif;
+		color:#fff;
+		
+}
+body > header > div > div > div > h3 {
+	font-family: 'Indie Flower', cursive;
+	color:#fff;
+}
+
+body > header > div > div > div {
+	margin-top:75px;
+}
+/*Editando el boton*/
+button {
+	font-family:'Muli', sans-serif;
+}
+
+/*Intentando arreglar el navbar*/
+
+/* Intentando arreglar el layout para celulares*/
+@media (min-width: 768px) { 
+		.pagination {
+		margin-left:5px;
+	}
+	.navbar-nav {
+			float:right;
+		}
+	 }
+.navbar-default {
+	border:0px solid;
+	background-color:rgba(0,0,0,0.75);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+	color:#999;
+	#999
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color:#fff;
+	border-bottom:2px solid #0063BF;
+	background-color:rgba(25,78,128,0.75);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a{
+	color:#999;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	border-bottom:2px solid #00315f;
+	background-color:rgba(0,0,0,0);
+	color:#999;
+}
+
+.bg-info {
+	background-color:rgba(0,59,114,0.25);
+}
+
+
+
+/* No quiero mas pero bueno, ahora vamos a trabajar las cajas*/
+body > div.presentacion > div > div > div.col-md-4.center-block.justified > div {
+	background-color: #EDEDED;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+}
+body > div.presentacion > div > div > div:nth-child(2) > div {
+	background-color: #EDEDED;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+
+}
+
+/* CSS used here will be applied after bootstrap.css */
+.media {border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+  border: 0px solid #000000;
+background-color:rgba(50,145,235,0.25)
+}
+
+
+body > div.presentacion > div > div > div:nth-child(3) > div {background-color: #EDEDED;
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+}
+/* Fix para el carrousel - maybe */
+
+div.capatrans {
+	color:#fff;
+	background-color:rgba(0,0,0,0.50);
+}
+#slider1_container > div > div > div:nth-child(1) {
+	height:100%;
+	left:50%;
+	display:inline-block;
+}
+
+/* texto del boton*/
+body > header > div > div > div > button > a {
+	text-decoration: none;
+	color:#fff;
+}
+.disenoshishu > p {
+		text-align:center;
+		font-size:1.5em;
+}
+
+.media {
+	width:500px;
+	height:250px;
+	padding-right:10px;
+}
+
+body > footer {
+	background-color:rgba(55,55,55,0.5);
+	color:#fff;
+	text-decoration:none;
+}
+.list-inline > li > a {
+	color:#ddd;
+}
+.list-inline > li > a:hover {
+	color:#fff;
 }

@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Archivo+Narrow);
+body {
+	background-image:url(../image/fondo.png)
+}
+
+.col-md-10 {
+	border-radius: 24px 24px 24px 24px;
+-moz-border-radius: 24px 24px 24px 24px;
+-webkit-border-radius: 24px 24px 24px 24px;
+border: 0px solid #000000;
+	background-color:rgba(255,255,255,0.75);
+}
+.titulos {
+	text-align:center;
+}
+.titulos > h2 {
+/*	font-size:4em; */
+font-family: 'Archivo Narrow', sans-serif;
+}
+
+.titulos > p {
+/*	font-size:2em; */
+font-family: 'Archivo Narrow', sans-serif;
+}
+@media (min-width: 768px) { 
+	.img-responsive {
+      height:500px;
+      }
+	.titulos > p {
+	font-size:2em; 
+	}
+	.titulos > h2 {
+	font-size:4em; 
+	}
+	.articulo > p {
+	font-size:1.2em;
+	}
+	 }
+
+
+.articulo > p {
+/*	font-size:1.2em;*/
+	font-family: 'Open Sans', sans-serif;
+	line-height:1.5em;
+}

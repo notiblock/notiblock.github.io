@@ -1,0 +1,47 @@
+/* Arreglos para el NavBar para que sea todos iguales*/
+@media (min-width: 768px) { 
+	.navbar-nav {
+			float:right;
+		}
+	 }
+.navbar-default {
+	border:0px solid;
+	background-color:rgba(0,0,0,0.75);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+	color:#999;
+	#999
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color:#fff;
+	border-bottom:2px solid #0063BF;
+	background-color:rgba(25,78,128,0.75);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a{
+	color:#999;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	border-bottom:2px solid #00315f;
+	background-color:rgba(0,0,0,0);
+	color:#999;
+}
+
+.bg-info {
+	background-color:rgba(0,59,114,0.25);
+}
+
+/*Tambien arreglos para el Foo Fighter (footer*/
+body > footer {
+	background-color:rgba(55,55,55,0.5);
+	color:#fff;
+	text-decoration:none;
+}
+.list-inline > li > a {
+	color:#ddd;
+}
+.list-inline > li > a:hover {
+	color:#fff;
+}
