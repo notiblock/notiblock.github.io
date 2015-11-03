@@ -172,6 +172,6 @@ body > footer {
 }
 /*Añadiendo el resaltado, que le faltan a varias. */
 .navbar-default .navbar-nav>.active>a {
-	color:#333;
+	color:#CCC;
 }
 }
