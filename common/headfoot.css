@@ -23,11 +23,12 @@
 	color:#999;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	border-bottom:2px solid #00315f;
-	background-color:rgba(0,0,0,0);
-	color:#999;
-}
+/* Transladando commit fb362b1: Otra cosa mas, hover que conserve el color */
+ .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+ 	border-bottom:2px solid #00315f;
+ 	background-color:rgba(0,0,0,0);
+	color:#ccc;
+ }
 
 .bg-info {
 	background-color:rgba(0,59,114,0.25);
@@ -45,3 +46,7 @@ body > footer {
 .list-inline > li > a:hover {
 	color:#fff;
 }
+/* Commit ac2bf1f: Fix, Invertir valor*/
+ .navbar-default .navbar-nav>.active>a {
+	color:#CCC;
+ }
